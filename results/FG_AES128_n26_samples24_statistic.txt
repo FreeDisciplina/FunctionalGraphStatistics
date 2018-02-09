@@ -1,0 +1,48 @@
+=====================================================================================
+ Functional Graphs Statistics (chopped AES-128): n = 26
+=====================================================================================
+
+Theoretical  Average # Components:                     13                             = 2^3.7004397181410921603
+Experimental Average # Components:                     8.916666666666666667           = 2^3.1565044856799907664
+Maximum:                                               18                             = 2^4.1699250014423123629
+Minimum:                                               4                              = 2^2
+Standard Deviation:                                    3.5345516767414157933          = 2^1.821527234904584827
+Standard Deviation / Average:                          0.3963983188868877525          = 2^-1.3349772507754059395
+
+Theoretical  Average # Cyclic nodes:                   10267.149412888577857          = 2^13.325748064736159371
+Experimental Average # Cyclic nodes:                   9612.166666666666667           = 2^13.230645948432496238
+Maximum:                                               22110                          = 2^14.432411404703588218
+Minimum:                                               1298                           = 2^10.342074667999138515
+Standard Deviation:                                    5337.9262098892131689          = 2^12.382063646836850295
+Standard Deviation / Average:                          0.55533017632748910258         = 2^-0.84858230159564594327
+
+Theoretical  Average # Tail nodes:                     67098596.850587111421          = 2^25.999779261667316279
+Experimental Average # Tail nodes:                     67099251.833333333332          = 2^25.999793344461774114
+Maximum:                                               67107566                       = 2^25.99997209554503674
+Minimum:                                               67086754                       = 2^25.999524604631386907
+Standard Deviation:                                    5337.9262099070001568          = 2^12.382063646841657629
+Standard Deviation / Average:                          7.955269342146738676e-05       = 2^-13.617729697620116485
+
+Theoretical  Average # Terminal nodes:                 24687971.385970323443          = 2^24.557304959111036592
+Experimental Average # Terminal nodes:                 24688225.125                   = 2^24.557319786824212769
+Maximum:                                               24691493                       = 2^24.557510737572521748
+Minimum:                                               24683603                       = 2^24.557049660434788119
+Standard Deviation:                                    1828.9762918261164941          = 2^10.836820658881262966
+Standard Deviation / Average:                          7.4082939642916776672e-05      = 2^-13.720499127942949802
+
+Theoretical  Average # Image nodes:                    42420892.614029676559          = 2^25.338271642371032655
+Experimental Average # Image nodes:                    42420638.875                   = 2^25.338263012917193935
+Maximum:                                               42425261                       = 2^25.338420199459673646
+Minimum:                                               42417371                       = 2^25.338151870586862918
+Standard Deviation:                                    1828.9762918094309043          = 2^10.836820658868101386
+Standard Deviation / Average:                          4.3115246264886219358e-05      = 2^-14.50144235404909255
+
+Theoretical  Average # 2^7-th iterates image nodes:    1021257.6154050126534          = 2^19.96191540575249653
+Experimental Average # 2^7-th iterates image nodes:    1022078.5416666666667          = 2^19.963074633818075889
+Maximum:                                               1030608                        = 2^19.975064265759047852
+Minimum:                                               1012914                        = 2^19.950080258724395247
+Standard Deviation:                                    4756.4306556069132057          = 2^12.215663629808852748
+Standard Deviation / Average:                          0.0046536840973598497074       = 2^-7.7474110040092231408
+
+Takes time: 1555.2948333333333721 mins.
+
