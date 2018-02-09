@@ -20,17 +20,17 @@ A practical question is ``For real world pseudo-random mappings designed by cryp
 We directly use implementations of AES-128 and SM4-128 included in IPPCP (Cryptography for Intel Intergrated Performance Primitives) in IPP (Intel Integrated Performance Primitives). Thus, one may need to install [IPP](https://software.intel.com/en-us/intel-ipp) and [IPPCP](https://software.intel.com/en-us/get-ipp-cryptography-libraries) to compile and run this experiment.
 
 - This program has been tested on the following platforms:
-  -- Windows 10 + VS 2015 + Intel C/C++ compiler 17.0
-  -- Red Hat Enterprise Linux Server release 6.9 + g++ (GCC) 5.1.0 + icpc (ICC) 18.0.0
+  + Windows 10 + VS 2015 + Intel C/C++ compiler 17.0
+  + Red Hat Enterprise Linux Server release 6.9 + g++ (GCC) 5.1.0 + icpc (ICC) 18.0.0
 
 - Compiling:
-  -- this is an paralleled implementation, and can be compiled using mpiicpc
-  -- four parameters can be defined manually during compiling:
+  + this is an paralleled implementation, and can be compiled using mpiicpc
+  + four parameters can be defined manually during compiling:
      * `nmin`: the minimum value of *n* (default 12)
      * `nmax`: the maximum value of *n* (default 18)
      * `ns`: the number of samples for each *n*-bit random mapping (default 1024)
      * `nt`: the number of mpi processes (default 4)
-  -- example:
+  + example:
      * > make nmin=12 nmax=24 ns=768 nt=384
 
 - Running example:
