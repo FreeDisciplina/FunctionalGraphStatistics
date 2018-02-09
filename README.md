@@ -40,14 +40,14 @@ We directly use implementations of AES-128 and SM4-128 included in IPPCP (Crypto
 
 The following figures show summaries on the results (plotted using [matplotlib](https://matplotlib.org/)):
 
-<img src="results/n12_n25_componentN.pdf" />
-<img src="results/n12_n25_cyclicNodeN.pdf" />
+<img src="results/n12_n25_componentN.png" />
+<img src="results/n12_n25_cyclicNodeN.png" />
 
-<img src="results/n12_n25_tailNodeN.pdf" />
-<img src="results/n12_n25_terminalN.pdf" />
+<img src="results/n12_n25_tailNodeN.png" />
+<img src="results/n12_n25_terminalN.png" />
 
-<img src="results/n12_n25_imageN.pdf" />
-<img src="results/n12_n25_k_thNodeN.pdf" />
+<img src="results/n12_n25_imageN.png" />
+<img src="results/n12_n25_k_thNodeN.png" />
 
 ## References ##
 [FO90] Philippe Flajolet and Andrew M. Odlyzko: Random Mapping Statistics. In Workshop on the Theory and Application of Cryptographic Techniques (EUROCRYPT’89), volume 434 of LNCS, pp. 329–354, Springer, Berlin, Heidelberg, 1990. https://link.springer.com/chapter/10.1007/3-540-46885-4_34
