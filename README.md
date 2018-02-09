@@ -8,7 +8,7 @@ The functional graph of *f* (a random mapping from *N*-set to itself) is a direc
 
 The following figure is an illustration of the functional graph of a chopped AES-128 (obtained by fixing an arbitrary key and 122 bits of the input and take 6 bits as output, in this case *N = 64*).
 
-<img src="results/Functional_Graph.pdf" />
+<img src="results/Functional_Graph.png"/>
 
 The structure of the functional graph of random mappings has been studied for a long time.
 Lots of parameters have got accurate asymptotic evaluation (refer to [\[FO90\]](https://link.springer.com/chapter/10.1007/3-540-46885-4_34) and [\[FS09\]](http://algo.inria.fr/flajolet/Publications/book.pdf)). These results on statistical properties of the random functional graph can provide various knowledge about the iteration of a random mapping, e.g., the expected number of iterations before one encounter a collision starting from a random node; a quantitative evaluation on the lost entropy of the output when iterating a random function many times. These results have stimulated fruitful results on the cryptanalysis of iterated hash constructions.
@@ -40,14 +40,11 @@ We directly use implementations of AES-128 and SM4-128 included in IPPCP (Crypto
 
 The following figures show summaries on the results (plotted using [matplotlib](https://matplotlib.org/)):
 
-<img src="results/n12_n25_componentN.png" />
-<img src="results/n12_n25_cyclicNodeN.png" />
+<img src="results/n12_n25_componentN.png" width="45"/> <img src="results/n12_n25_cyclicNodeN.png"  width="45"/>
 
-<img src="results/n12_n25_tailNodeN.png" />
-<img src="results/n12_n25_terminalN.png" />
+<img src="results/n12_n25_tailNodeN.png"  width="45"/> <img src="results/n12_n25_terminalN.png"  width="45"/>
 
-<img src="results/n12_n25_imageN.png" />
-<img src="results/n12_n25_k_thNodeN.png" />
+<img src="results/n12_n25_imageN.png"  width="45"/> <img src="results/n12_n25_k_thNodeN.png"  width="45"/>
 
 ## References ##
 [FO90] Philippe Flajolet and Andrew M. Odlyzko: Random Mapping Statistics. In Workshop on the Theory and Application of Cryptographic Techniques (EUROCRYPT’89), volume 434 of LNCS, pp. 329–354, Springer, Berlin, Heidelberg, 1990. https://link.springer.com/chapter/10.1007/3-540-46885-4_34
